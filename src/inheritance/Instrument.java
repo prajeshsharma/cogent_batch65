@@ -1,4 +1,4 @@
-package abstraction;
+package inheritance;
 
 public abstract class Instrument {
     void play() {

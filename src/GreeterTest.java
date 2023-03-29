@@ -1,4 +1,3 @@
-package cogent_batch65;
 import gl.itp.hyp65.cs65.Prajesh.*;
 
 public class GreeterTest {

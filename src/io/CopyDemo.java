@@ -3,8 +3,7 @@ package io;
 import java.io.*;
 import java.util.Objects;
 import java.util.Scanner;
-
-import static cogent_batch65.Main.printEllipses;
+import java.util.concurrent.TimeUnit;
 
 public class CopyDemo {
     public static void main(String[] args) {
@@ -50,6 +49,21 @@ public class CopyDemo {
             }
             else if (answer.equalsIgnoreCase("n") || answer.equalsIgnoreCase("no"))
                 System.out.println("not overwriting file");
+        }
+    }
+
+    /**
+     * prints "..." with 0.53 second delay between each '.'
+     */
+    public static void printEllipses() {
+        try {
+            for (int i = 0; i < 3; i++) {
+                TimeUnit.MILLISECONDS.sleep(530);
+                System.out.print('.');
+            }
+            System.out.println();
+        } catch (InterruptedException e) {
+            e.printStackTrace();
         }
     }
 }

@@ -1,4 +1,4 @@
-package cogent_batch65;
+package abstraction;
 
 public class BikeTest {
     public static void main(String[] args) {

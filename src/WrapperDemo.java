@@ -1,5 +1,3 @@
-package cogent_batch65;
-
 public class WrapperDemo {
     public static void main(String[] args) {
         int a = 9;

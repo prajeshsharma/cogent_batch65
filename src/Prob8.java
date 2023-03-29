@@ -1,5 +1,3 @@
-package cogent_batch65;
-
 public class Prob8 {
     public static void main(String[] args) {
         if (args.length < 2) return;

@@ -1,5 +1,3 @@
-package cogent_batch65;
-
 import java.util.Scanner;
 
 public class BookTest {

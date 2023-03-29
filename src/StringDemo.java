@@ -1,5 +1,3 @@
-package cogent_batch65;
-
 public class StringDemo {
     public static void main(String[] args) {
         if (args.length == 0) return;

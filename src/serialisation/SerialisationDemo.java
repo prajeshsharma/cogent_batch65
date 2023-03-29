@@ -1,10 +1,10 @@
 package serialisation;
 
+import io.CopyDemo;
+
 import java.io.FileOutputStream;
 import java.io.ObjectOutputStream;
 import java.util.Scanner;
-
-import static cogent_batch65.Main.printEllipses;
 
 public class SerialisationDemo {
     public static void main(String[] args) {
@@ -30,7 +30,7 @@ public class SerialisationDemo {
 
 
                 System.out.println("serialising object");
-                printEllipses();
+                CopyDemo.printEllipses();
                 oos.writeObject(student);
                 System.out.println("object serialised");
 

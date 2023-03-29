@@ -1,15 +1,15 @@
 package serialisation;
 
-import java.io.*;
+import io.CopyDemo;
 
-import static cogent_batch65.Main.printEllipses;
+import java.io.*;
 
 public class DeSerialisationDemo {
     public static void main(String[] args) {
         FileInputStream fis = null;
         ObjectInputStream ois = null;
         System.out.println("de-serialising object(s)");
-        printEllipses();
+        CopyDemo.printEllipses();
         try {
             fis = new FileInputStream("src/serialisation/student.ser");
             ois = new ObjectInputStream(fis);

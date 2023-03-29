@@ -1,9 +1,9 @@
-package cogent_batch65;
+package abstraction;
 
 public class HarleyDavidson implements Bike {
-    int cadence = 0;
-    int speed = 0;
-    int gear = 1;
+    private int cadence = 0;
+    private int speed = 0;
+    private int gear = 1;
 
     @Override
     public void changeCadence(int newValue) {

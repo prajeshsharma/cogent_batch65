@@ -1,5 +1,3 @@
-package cogent_batch65;
-
 public class GarbageCollectionDemo {
     int objId;
 

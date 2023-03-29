@@ -1,4 +1,3 @@
-package cogent_batch65;
 import esg.itp.shape.*;
 
 public class PolygonTest {

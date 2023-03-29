@@ -1,5 +1,3 @@
-package cogent_batch65;
-
 public class Book extends Publication {
     private String id;
     private String author;

@@ -1,5 +1,3 @@
-package cogent_batch65;
-
 public class Publication {
     private String title;
     private double price;

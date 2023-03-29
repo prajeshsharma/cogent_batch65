@@ -1,4 +1,4 @@
-package cogent_batch65;
+package abstraction;
 
 public interface Bike {
     void changeCadence(int newValue);
