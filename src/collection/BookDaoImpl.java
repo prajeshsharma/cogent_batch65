@@ -1,8 +1,6 @@
 package collection;
 
-import java.util.ArrayList;
-import java.util.List;
-import java.util.Scanner;
+import java.util.*;
 
 public class BookDaoImpl implements BookDao {
     Scanner sc = new Scanner(System.in);
@@ -57,7 +55,7 @@ public class BookDaoImpl implements BookDao {
         sc.nextLine();
         for (Book book : books)
             if (book.getId() == id) {
-                System.out.println(book.toString());
+                System.out.println(book);
                 return;
             }
         System.out.println("ID not found");

@@ -1,7 +1,5 @@
 package collection;
 
-import java.util.List;
-
 public interface BookDao {
     void createBook();
 
