@@ -21,15 +21,11 @@ public class Student {
     public void searchName(String name) {
         System.out.println("Enter name to search");
         int index = names.indexOf(name);
-        if (index == -1) System.out.println(name + " is not in list");
-        else System.out.println(name + " is at index " + index );
+        System.out.println(index == -1 ? name + " is not in list" : name + " is at index " + index);
     }
 
     public void searchName(int index) {
-        if (index > 0 || index < names.size() - 1) {
-            System.out.println("Please enter a valid index");
-        }
-        System.out.println("name at index " + index + " is " + names.get(index));
+        System.out.println(index > 0 || index < names.size() - 1 ? "Please enter a valid index" : "name at index " + index + " is " + names.get(index));
     }
 
     public void printNames() {
