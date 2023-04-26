@@ -29,11 +29,7 @@ public class CalcAndBankAccountTest {
             System.out.println("No insufficient funds");
         }
         assert sheldonBank != null;
-        float b = sheldonBank.getBalance();
-        System.out.println(b);
-
-        b = rajBank != null ? rajBank.getBalance() : 0;
-        System.out.println(b);
+        System.out.println(sheldonBank.getBalance() + '\n' + (rajBank != null ? rajBank.getBalance() : 0));
 
     }
 }

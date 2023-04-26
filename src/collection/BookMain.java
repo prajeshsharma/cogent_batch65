@@ -16,6 +16,6 @@ public class BookMain {
             else if (choice == 3) bookDaoImplementation.findBook();
             else if (choice == 4) bookDaoImplementation.printBook();
             else if (choice == 5) bookDaoImplementation.deleteBook();
-        } while (choice >= 1 && choice <= 5);
+        } while (choice != 6);
     }
 }

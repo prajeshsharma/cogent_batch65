@@ -19,11 +19,3 @@ class HdcfBank extends Bank {
         return rateOfInterest;
     }
 }
-
-class HsbcBank extends Bank {
-    float rateOfInterest = 8f;
-    @Override
-    float getRateOfInterest() {
-        return rateOfInterest;
-    }
-}

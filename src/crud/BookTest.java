@@ -40,7 +40,7 @@ public class BookTest {
                     dao.delete(books, id);
                 }
             }
-        } while (choice > 0 && choice < 5);
+        } while (choice != 5);
         System.out.println("Goodbye!!!");
     }
 }

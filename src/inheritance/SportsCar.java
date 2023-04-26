@@ -8,12 +8,11 @@ public class SportsCar extends Car {
         this.airBalloonType = airBalloonType;
     }
 
-    public void display() {
-        super.display();
-        airBalloonType();
+
+    @Override
+    public String toString() {
+        System.out.println(super.toString());
+        return "The air balloon type is " + airBalloonType;
     }
 
-    private void airBalloonType() {
-        System.out.println("The air balloon type is " + airBalloonType);
-    }
 }

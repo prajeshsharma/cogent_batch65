@@ -11,14 +11,8 @@ public class TestHashMap {
 
         int choice;
         do {
-            System.out.println("Menu" +
-                    "\n1: add a add" +
-                    "\n2: print names" +
-                    "\n3: print roll number given a name" +
-                    "\n4: print all values" +
-                    "\n5: print size" +
-                    "\n6: remove" +
-                    "\n7: quit");
+            System.out.println("Menu\n1: add a add\n2: print names\n3: print roll number given a name" +
+                    "\n4: print all values\n5: print size\n6: remove\n7: quit");
             choice = sc.nextInt();
             sc.nextLine();
 
@@ -33,6 +27,6 @@ public class TestHashMap {
                 System.out.println("What is the name to remove?");
                 students.remove(sc.nextLine());
             }
-        } while (choice >= 1 && choice <= 6);
+        } while (choice != 7);
     }
 }

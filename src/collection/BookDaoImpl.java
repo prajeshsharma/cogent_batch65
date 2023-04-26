@@ -13,8 +13,7 @@ public class BookDaoImpl implements BookDao {
         System.out.println("Enter book price");
         double price = sc.nextDouble();
         sc.nextLine();
-        Book b = new Book(books.size(), title, price);
-        books.add(b);
+        books.add(new Book(books.size(), title, price));
         System.out.println("Book created with ID: " + (books.size() - 1));
     }
 

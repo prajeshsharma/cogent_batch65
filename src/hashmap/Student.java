@@ -1,9 +1,6 @@
 package hashmap;
 
-import java.util.Comparator;
-import java.util.HashMap;
-import java.util.Scanner;
-import java.util.Set;
+import java.util.*;
 
 public class Student implements Comparator<Student> {
     private final HashMap<String, String> studentNames; // <name, rollNo>

@@ -16,13 +16,9 @@ public class Employee implements Comparator<Employee> {
         return name;
     }
 
-    public int getRollNo() {
-        return rollNo;
-    }
-
     @Override
     public String toString() {
-        return "Student{name='" + name + '\'' + ", id=" + rollNo + '}';
+        return "Student{name='" + name + "', id=" + rollNo + '}';
     }
 
 

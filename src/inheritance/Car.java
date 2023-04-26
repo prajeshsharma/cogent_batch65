@@ -17,8 +17,9 @@ public class Car {
         return name;
     }
 
-    public void display() {
-        System.out.println(name + " is a " + gearStatus + " transmission with a starting speed of " + speed + " and " +
-                noOfGears + " gears.");
+    @Override
+    public String toString() {
+        return name + " is a " + gearStatus + " transmission with a starting speed of " + speed + " and " +
+                noOfGears + " gears.";
     }
 }

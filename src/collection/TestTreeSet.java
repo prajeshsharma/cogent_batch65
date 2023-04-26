@@ -21,8 +21,7 @@ public class TestTreeSet {
         product.add("plumbus");
 
 
-        Iterator<String> itr = product.iterator();
-        while (itr.hasNext()) System.out.print(itr.next() + " ");
+        for (String s : product) System.out.print(s + " ");
         System.out.println();
 
         System.out.println("first: " + product.first() + ", last: " + product.last());

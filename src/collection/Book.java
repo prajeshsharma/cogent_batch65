@@ -5,12 +5,10 @@ public class Book {
     private String title;
     private double price;
 
-    public Book() {}
-
     public Book(int id, String title, double price) {
         this.id = id;
         this.title = title;
-        this.price = price;
+        this.price = Math.round(100 * price) / 100.0;
     }
 
     public int getId() {
@@ -31,10 +29,6 @@ public class Book {
 
     @Override
     public String toString() {
-        return "Book{" +
-                "id=" + id +
-                ", title='" + title + '\'' +
-                ", price=$" + String.format("%.2f", price) +
-                '}';
+        return "Book{id=" + id + ", title='" + title + "', price=$" + String.format("%.2f", price) + '}';
     }
 }

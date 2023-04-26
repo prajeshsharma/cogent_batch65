@@ -10,11 +10,9 @@ public class StudentTest {
         students.add(new Student(1, "John", 4));
         students.add(new Student(2, "Tom", 5));
         Predicate<Integer> predicate = s -> s == 2;
-
     for (Student student : students)
         if (predicate.test(student.getRollNo()))
             System.out.println(student.toString());
-
     }
 }
 

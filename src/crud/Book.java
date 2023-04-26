@@ -23,10 +23,6 @@ public class Book {
 
     @Override
     public String toString() {
-        return "Book{" +
-                "id='" + id + '\'' +
-                ", name='" + name + '\'' +
-                ", price=$" + price +
-                '}';
+        return "Book{id='" + id + "', name='" + name + "', price=$" + String.format("%.2f", price) + '}';
     }
 }

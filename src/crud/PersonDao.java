@@ -26,12 +26,4 @@ public class PersonDao {
                     "\nPerson address is: " + person.getAddress());
 
     }
-
-    public void update() {
-
-    }
-
-    public void delete() {
-
-    }
 }
